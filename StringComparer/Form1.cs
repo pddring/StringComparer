@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StringComparer
 {
-    public partial class Form1 : Form
+    public partial class StringComparer : Form
     {
-        public Form1()
+        public StringComparer()
         {
             InitializeComponent();
         }
