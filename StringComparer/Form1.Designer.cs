@@ -63,6 +63,7 @@
             this.txtStringX.Name = "txtStringX";
             this.txtStringX.Size = new System.Drawing.Size(536, 20);
             this.txtStringX.TabIndex = 2;
+            this.txtStringX.TextChanged += new System.EventHandler(this.txtStringX_TextChanged);
             // 
             // txtStringY
             // 

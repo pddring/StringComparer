@@ -16,5 +16,17 @@ namespace StringComparer
         {
             InitializeComponent();
         }
+
+        private void txtStringX_TextChanged(object sender, EventArgs e)
+        {
+            ValidationResult checker = new ValidationResult();
+            if(checker.ValidateUserInput(txtStringX.Text))
+            {
+                lblResult.Text = "String X is valid";
+            } else
+            {
+                lblResult.Text = "String X is invalid: " + checker.Message;
+            }
+        }
     }
 }
